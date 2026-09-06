@@ -1,4 +1,4 @@
-import { CandidateProfile } from '../../types';
+import type { CandidateProfile } from '../../types';
 
 interface ProfileCardProps {
   profile: CandidateProfile;

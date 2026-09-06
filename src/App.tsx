@@ -1,15 +1,12 @@
 import { SplitLayout } from './components/layout/SplitLayout';
 import { ResumePanel } from './components/resume/ResumePanel';
+import { RightPanel } from './components/layout/RightPanel';
 
 function App() {
   return (
     <SplitLayout
       left={<ResumePanel />}
-      right={
-        <div className="text-gray-500">
-          Right panel will go here (Match + Catalog)
-        </div>
-      }
+      right={<RightPanel />}
     />
   );
 }
